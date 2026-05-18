@@ -58,8 +58,8 @@ print("Tổng hai số là:", result)
 
 # Khai báo biến
 name = "Sơn"
-age = 16
-average_score = 8.5
+age = 19
+average_score = 9
 
 # Hiển thị kiểu dữ liệu
 print("Kiểu dữ liệu của name:", type(name))
