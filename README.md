@@ -1,78 +1,56 @@
-# Bài 1
+# ===== Bài 1 =====
 
-# Tạo các biến với kiểu dữ liệu khác nhau
-integer_number = 10
-float_number = 5.5
-string_text = "Hello Python"
+a = 25                # int
+b = 7.8               # float
+c = "Chu Minh Sơn"    # string
 
-# In ra các biến
-print("Số nguyên:", integer_number)
-print("Số thực:", float_number)
-print("Chuỗi:", string_text)
+print(a)
+print(b)
+print(c)
+<img width="755" height="437" alt="Ảnh chụp màn hình 2026-05-19 071341" src="https://github.com/user-attachments/assets/86b81c5e-b2fd-42d1-bba0-0104dd0bfafb" />
+# ===== Bài 2 =====
 
-
-# Bài 2
-
-# Tính chu vi hình tròn
 PI = 3.14
-r = 5
+ban_kinh = 5
 
-chu_vi = 2 * PI * r
+chu_vi = 2 * PI * ban_kinh
 
-print("Chu vi hình tròn là:", chu_vi)
+print("Chu vi =", chu_vi)
+<img width="826" height="423" alt="Ảnh chụp màn hình 2026-05-19 071448" src="https://github.com/user-attachments/assets/004b476d-3900-4244-9246-b89a2cc886c5" />
 
+# ===== Bài 3 =====
 
-# Bài 3
+x = int(input("Nhập số thứ nhất: "))
+y = int(input("Nhập số thứ hai: "))
 
-# Nhập hai số nguyên từ người dùng
-a = int(input("Nhập số thứ nhất: "))
-b = int(input("Nhập số thứ hai: "))
+print("Tổng =", x + y)
+print("Hiệu =", x - y)
+print("Tích =", x * y)
+print("Thương =", x / y)
+<img width="806" height="427" alt="Ảnh chụp màn hình 2026-05-19 071639" src="https://github.com/user-attachments/assets/4d5773b6-d39f-4f7d-bc45-711d25b24893" />
 
-# Thực hiện các phép toán
-tong = a + b
-hieu = a - b
-tich = a * b
-thuong = a / b
+# ===== Bài 4 =====
 
-# In kết quả
-print("Tổng:", tong)
-print("Hiệu:", hieu)
-print("Tích:", tich)
-print("Thương:", thuong)
-
-
-# Bài 4
-
-# Hàm tính tổng hai số
 def sum_two_numbers(a, b):
-    return a + b
+    tong = a + b
+    return tong
 
-# Gọi hàm
-result = sum_two_numbers(3, 7)
+print(sum_two_numbers(10, 20))
+<img width="821" height="425" alt="Ảnh chụp màn hình 2026-05-19 071647" src="https://github.com/user-attachments/assets/b26d9e16-6f6b-465a-8c80-b7067a9ff436" />
 
-# In kết quả
-print("Tổng hai số là:", result)
+# ===== Bài 5 =====
 
-
-# Bài 5
-
-# Khai báo biến
 name = "Sơn"
 age = 19
-average_score = 9
+average_score = 9.2
 
-# Hiển thị kiểu dữ liệu
-print("Kiểu dữ liệu của name:", type(name))
-print("Kiểu dữ liệu của age:", type(age))
-print("Kiểu dữ liệu của average_score:", type(average_score))
+print(name, "-", type(name))
+print(age, "-", type(age))
+print(average_score, "-", type(average_score))
 
-# Xử lý dữ liệu
 age_next_year = age + 1
 doubled_score = average_score * 2
 
-# In thông tin
-print("Tên:", name)
-print("Tuổi hiện tại:", age)
 print("Tuổi năm sau:", age_next_year)
-print("Điểm trung bình:", average_score)
-print("Điểm gấp đôi:", doubled_score)
+print("Điểm nhân đôi:", doubled_score)
+<img width="837" height="413" alt="Ảnh chụp màn hình 2026-05-19 071731" src="https://github.com/user-attachments/assets/47c253d8-61c7-4ed5-97aa-564f16f22f8a" />
