@@ -1,7 +1,9 @@
 # ===== Bài 1 =====
 
 a = 25                # số_nguyên
+
 b = 7.8               # số_thực
+
 c = "Chu Minh Sơn"    # chuỗi
 
 print(a)
@@ -39,6 +41,7 @@ print("Thương =", x / y)
 # ===== Bài 4 =====
 
 def sum_two_numbers(a, b):
+
     tong = a + b
     
     return tong
