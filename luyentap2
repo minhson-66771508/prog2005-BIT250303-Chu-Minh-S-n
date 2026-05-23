@@ -71,8 +71,3 @@ chemistry_score = float(input("Nhập điểm môn hóa:"))
 average = (math_score + physics_score + chemistry_score) / 3
 print("Tên:", name)
 print("Điểm trung bình :", round(average, 2))
-
-
-
-
-
