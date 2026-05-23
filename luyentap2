@@ -8,7 +8,6 @@ def is_even (x):
 x = int(input("nhap so:"))
 print(is_even(x))
 
-
 #Bài 2
 a = int(input("a ="))
 b = int(input("b ="))
