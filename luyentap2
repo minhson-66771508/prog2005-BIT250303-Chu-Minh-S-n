@@ -7,7 +7,7 @@ def is_even (x):
         return False
 x = int(input("nhap so:"))
 print(is_even(x))
-"C:\Users\schu3\Pictures\Screenshots\Ảnh chụp màn hình 2026-05-23 191130.png"
+
 #Bài 2
 a = int(input("a ="))
 b = int(input("b ="))
